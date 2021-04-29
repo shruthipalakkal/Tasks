@@ -1,0 +1,458 @@
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smooth:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+    font-family:'Stag Sans', sans-serif;
+	font-weight:300;
+	font-size: 15px;
+	line-height:30px;
+	color:#000000;
+}
+li {
+    list-style: none!important;
+}
+section{
+    padding: 2rem;
+}
+.font-white {
+    color: #FFFFFF;
+}
+.font-green {
+    color: #22B78E;
+}
+h3.label{
+font-size: 31px;
+}
+#homepage .hero-banner {
+    background-image :url(../images/banner.png) !important ;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+  position: relative;
+  padding: 20px;
+}
+.banner-leftwrap {
+    color: #fff;
+}
+h1{
+    font-family: 'Titillium Web', sans-serif;
+}
+.aster-logo-white {
+    width: 239px;
+    height: 239px;
+}
+header {
+    position:absolute;
+    top: 0;
+}
+.adult-paediatric-b {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+  .haematology-oncolo {
+    color: #FFFFFF;
+    font-family: 'Stag Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    text-align: left;
+    font-weight: 300;
+}
+  .book-an-appoinment {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 14.4px;
+    line-height: 17px;
+    text-align: left;
+  }
+  .submit {
+    color: #FFFFFF;
+    font-size: 14.84px;
+    line-height: 18px;
+    text-align: left;
+  }
+  
+.banner-enquiry {
+    background-color: #FFFFFF;
+    padding: 20px;
+    
+}
+button.book-an-appoinment {
+    background-color: #DD5A6A;
+    border: 1px solid #DD5A6A;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;;
+}
+button.book-an-appoinment:hover {
+    background-color: #f5364e;
+}
+button.submit {
+    background-color: #DD5A6A;
+    border: 1px solid #DD5A6A;
+    color: #fff;
+    padding: 10px 20px;
+}
+button.submit:hover {
+    background-color: #f5364e;
+}
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .about-detail .highlight {
+  
+    padding: 15px;  background: linear-gradient(35deg, #2EC4B8, #6078EA);
+  }
+  .highlight p {
+      font-weight: 400;
+      font-size: 18px;
+      max-width:90%;
+      
+  }
+ 
+.about-detail .content-wrapper li {
+    border-bottom: 1px solid #ECECFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+h3.department {
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    line-height: 44px;
+}
+.doctor-detail h4 {
+    color: #1D5AA6;
+    font-size: 18px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+}
+.doctor-detail {
+    background-color: #F9F9FF;
+    padding: 30px;
+}
+
+.doctor-wrap p.description {
+    line-height: 20px;
+    padding: 10px;
+}
+p.speciality.text-center {
+    color: #1D5AA6;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin: auto;
+    font-weight: 200;
+    line-height: 25px;
+    padding: 10px 0;
+}
+.speciality .line {
+    background-color: #22B78E;
+    height: 1px;
+    width: 50px;
+    margin: 10px auto;
+    display: block;
+}
+  a.know-more {
+    color: #fff;
+    font-weight:200;
+    background: linear-gradient(35deg, #2EC4B8, #6078EA);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.doctor-wrap .border-line {
+    border-bottom: 1px solid #ECECFF;
+    width: 415px;
+    height: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.types-brief ul li{
+    position: relative;
+}
+.types-brief li {
+    padding-left: 40px;
+    line-height: 39px;
+}
+.types-brief li::before {
+    content : "";
+    display : block;
+    width : 2rem;
+    height : 1rem;
+    position : absolute;
+    left: 0;
+    top: 15px;
+    margin : auto;
+    background-size : contain;
+    background-repeat : no-repeat;
+    background-image : url(../images/icons/hospital.png);
+}
+.warnings .col-wrap {
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAFF;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgb(187 165 228 / 10%);
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 185px;
+}
+.warnings .col-wrap p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 21px;
+    max-width: 198px;
+    text-align: left;
+}
+.warnings .col-wrap img {
+    max-height: 40px;;
+}
+/* faqs */
+.faqs span.arrow {
+    position: absolute;
+    right: 30px;
+}
+.faqs .btn-link {
+    color: #1D5AA6;
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 500;
+}
+.faqs .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding-left: 0;;
+}
+.faqs .card {
+    border: none;
+}
+.faqs li {
+    position: relative;
+    padding-left: 35px;;
+}
+.faqs li::before {
+    content: "";
+    display: block;
+    width: 1.2rem;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/double-tick.png);
+}
+/* testimonial */
+.review-wrapper {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgb(0 0 0 / 4%);
+    padding: 20px;
+    background-image: url(../images/icons/quote.png);
+    background-size: contain;
+}
+p.comment {
+    max-width: 85%;
+    font-style: italic;
+    color: #000000;
+}
+.review-wrapper {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 520px;
+    background-image: url(../images/icons/quote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-x: 90%;
+    box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+}
+.testimonials-sec {
+    position: relative!important;
+}
+.appointment-btn {
+    text-align: center;
+    background: #004498;
+    width: 220px;
+    padding: 15px;
+    margin: auto;
+}
+.appointment-btn  a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.testimonials-sec p.about {
+    line-height: 21px;
+    font-size: 15px;
+}
+.testimonials-sec .bx-controls-direction {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+ a.bx-prev {
+    padding-right: 13px;
+}
+.testimonial-box {
+    width: 520px!important;
+}
+.review-wrapper img {
+    float: left;
+}
+  /*---FOOTER---/*/
+  footer {
+    background-color: #272727;
+    padding: 30px;
+}
+.footer-icons .line {
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    opacity: 0.3701869419642857;
+    width: 1110px;
+    height: 2px;
+    
+}
+.footer-icons a {
+    padding: 3px;
+}
+/*---MEDIA QUERIES---- */
+  @media (max-width: 480px) {
+   
+    ul {
+        padding-left: 0;
+    }
+    .testimonials-sec .bx-controls-direction {
+        position: absolute;
+        right: 40px;
+        top: 0;
+    }
+    .faqs span.arrow {
+        position: absolute;
+        right: 0px;
+        top: 21px;
+    }
+}
+  @media (min-width: 480px) {
+  
+
+}
+
+  @media (min-width: 768px) {
+    section {
+        padding: 3rem 2rem;
+    }
+    .doctor-wrap {
+        padding: 20px 15px;
+    }
+    .faqs .btn-link {
+        color: #1D5AA6;
+        font-size: 20px;
+    }
+    .doctor-detail h4 {
+        font-size: 22px;
+    }
+    .about-detail .content-wrapper {
+        padding-right: 50px;
+        line-height: 20px;
+    }
+    .adult-paediatric-b {
+        color: #FFFFFF;
+        font-size: 31px;
+        letter-spacing: 1.28px;
+        line-height: 40px;
+        text-align: left;
+      }
+      .haematology-oncolo {
+        color: #FFFFFF;
+        font-family:'Stag Sans', sans-serif;
+        font-size: 25px;
+        letter-spacing: 3.59px;
+        line-height: 34px;
+        text-align: left;
+        font-weight: 300;;
+      }
+    .testimonials-sec .bx-controls-direction {
+        position: absolute;
+        right: 200px;
+        top: 100px;
+        display: block;
+    }
+    #homepage .hero-banner {
+        height: 700px;
+    }
+    .testimonials-sec p.about {
+        max-width: 50%;
+        line-height: 21px;
+        font-size: 15px;
+    }
+    .review-wrapper {
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        box-shadow: 9px 8px 27px 0 rgb(0 0 0 / 4%);
+        padding: 20px;
+        max-width: 520px;
+        background-image: url(../images/icons/quote.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position-x: 90%;
+        box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+    }
+
+}
+  @media (min-width: 1200px) {
+ 
+
+}
+@media (min-width: 1440px) {
+
+
+}
